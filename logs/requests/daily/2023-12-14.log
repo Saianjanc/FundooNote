@@ -66,3 +66,5 @@ info: ::1 - - [14/Dec/2023:10:04:12 +0000] "POST /api/v1/users/ HTTP/1.1" 201 28
 
 info: ::1 - - [14/Dec/2023:10:04:35 +0000] "POST /api/v1/users/ HTTP/1.1" 201 45 "-" "PostmanRuntime/7.36.0"
 
+info: ::1 - - [14/Dec/2023:10:06:14 +0000] "POST /api/v1/users/ HTTP/1.1" 406 45 "-" "PostmanRuntime/7.36.0"
+
