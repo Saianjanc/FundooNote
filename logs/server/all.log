@@ -387,3 +387,784 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T0
 info: Connected to the database. {"timestamp":"2023-12-14T09:58:51.991Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:05:54.913Z"}
 info: Connected to the database. {"timestamp":"2023-12-14T10:05:54.954Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:42:50.235Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:42:50.278Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:55:56.454Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:55:56.480Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:57:31.015Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:57:31.039Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:63:13)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Dec 14 2023 16:28:01 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":21553.64},"process":{"argv":["node","C:\\Users\\Saianjan\\backend\\fundoo-note\\src\\index.js"],"cwd":"C:\\Users\\Saianjan\\backend\\fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18263754,"external":21329236,"heapTotal":55685120,"heapUsed":51259128,"rss":93093888},"pid":9580,"uid":null,"version":"v20.10.0"},"stack":"ReferenceError: data is not defined\n    at _callee2$ (C:\\Users\\Saianjan\\backend\\fundoo-note\\src\\controllers\\/user.controller.js:63:13)\n    at tryCatch (C:\\Users\\Saianjan\\backend\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\Saianjan\\backend\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.throw (C:\\Users\\Saianjan\\backend\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\Saianjan\\backend\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Saianjan\\backend\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-14T10:58:01.370Z","trace":[{"column":13,"file":"C:\\Users\\Saianjan\\backend\\fundoo-note\\src\\controllers\\/user.controller.js","function":"_callee2$","line":63,"method":null,"native":false},{"column":16,"file":"C:\\Users\\Saianjan\\backend\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Saianjan\\backend\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\Saianjan\\backend\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":74,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Saianjan\\backend\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Saianjan\\backend\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:59:19.886Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:59:19.911Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:01:10.487Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:01:10.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:02:02.257Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:02:02.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:02:35.394Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:02:35.416Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:04:16.215Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:04:16.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:07:48.182Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:07:48.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:08:04.856Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:08:04.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:08:56.909Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:08:56.935Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:09:19.176Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:09:19.198Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:11:32.859Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:11:32.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:12:39.973Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:12:39.997Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:14:37.937Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:14:37.961Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:15:27.927Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:15:27.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:15:52.660Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:15:52.688Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Bad escaped character in JSON at position 54
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T11:15:59.282Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:17:06.519Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:17:06.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:17:39.918Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:17:39.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:17:46.893Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:17:46.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:18:35.574Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:18:35.598Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:24:9)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T11:18:37.025Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:24:9)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T11:18:39.352Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:19:09.573Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:19:09.599Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:19:38.753Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:19:38.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:19:50.674Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:19:50.695Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:20:15.849Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:20:15.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:20:35.007Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:20:35.029Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:20:59.929Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:20:59.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:21:21.482Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:21:21.510Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:21:40.536Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:21:40.563Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:23:34.322Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:23:34.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:24:27.556Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:24:27.582Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:24:40.481Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:24:40.507Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:28:55.132Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:28:55.163Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:30:47.574Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:30:47.608Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:33:25.899Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:33:25.942Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got Jishnu@gmail.com
+    at model.Query.Query.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:2275:13)
+    at Function.exists (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:1086:22)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:12:32)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.checkUser (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:11:23)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:39:36)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkUser (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:37:23)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T11:33:28.954Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:33:51.953Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:33:51.980Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got Jishnu@gmail.com
+    at model.Query.Query.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:2275:13)
+    at Function.exists (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:1086:22)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:12:32)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.checkUser (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:11:23)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:39:36)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkUser (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:37:23)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T11:33:54.264Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got Jishnu@gmail.com
+    at model.Query.Query.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:2275:13)
+    at Function.exists (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:1086:22)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:12:32)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.checkUser (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:11:23)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:39:36)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkUser (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:37:23)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T11:33:55.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:34:17.014Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:34:17.038Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got Jishnu@gmail.com
+    at model.Query.Query.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:2275:13)
+    at Function.exists (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:1086:22)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:12:32)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.checkUser (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:11:23)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:39:36)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkUser (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:37:23)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T11:34:20.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:35:22.389Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:35:22.410Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got Jishnu@gmail.com
+    at model.Query.Query.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:2275:13)
+    at Function.exists (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:1086:22)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:12:32)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.checkUser (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:11:23)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:39:36)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkUser (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:37:23)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T11:35:25.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:35:47.265Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:35:47.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:36:29.874Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:36:29.899Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:37:03.417Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:37:03.449Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:37:07.927Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:37:08.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:41:51.353Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:41:51.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:44:38.866Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:44:38.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:45:16.305Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:45:16.339Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:39:46)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkUser (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:37:23)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T11:45:23.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:45:45.859Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:45:45.907Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got saianjan@gmail.com
+    at model.Query.Query.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:2275:13)
+    at Function.exists (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:1086:22)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:12:32)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.checkUser (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:11:23)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:39:36)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkUser (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:37:23)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T11:45:46.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:46:49.708Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:46:49.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:46:56.670Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:46:56.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:36:10.306Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:36:10.360Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:12:39)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.checkUser (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:11:23)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:39:36)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkUser (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:37:23)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T15:36:46.426Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:37:36.395Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:37:36.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:42:03.069Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:42:03.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:44:28.263Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:44:28.322Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:45:10.329Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:45:10.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:45:57.039Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:45:57.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:48:06.894Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:48:06.955Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got saianjan@gmail.com
+    at model.Query.Query.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (C:\Users\Saianjan\backend\fundoo-note\node_modules\mongoose\lib\model.js:2275:13)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:12:27)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.checkUser (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:11:23)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:39:36)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at checkUser (C:\Users\Saianjan\backend\fundoo-note\src\controllers\/user.controller.js:37:23)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T15:48:11.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:48:39.361Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:48:39.404Z"}
+error: 
+    status - 500 
+    message - TypeError: "data" is read-only
+    at _readOnlyError (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\readOnlyError.js:2:9)
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:17:13)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T15:48:43.809Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:49:14.141Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:49:14.180Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:50:30.373Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:50:30.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:51:09.145Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:51:09.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:54:07.677Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:54:07.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:56:10.836Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:56:10.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:56:26.269Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:56:26.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:57:00.735Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:57:00.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T15:58:20.680Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:58:20.722Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee2$ (C:\Users\Saianjan\backend\fundoo-note\src\services\/user.service.js:14:11)
+    at tryCatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Saianjan\backend\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T16:00:46.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T16:01:37.097Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T16:01:37.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T16:06:15.998Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T16:06:16.021Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T16:09:57.617Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T16:09:57.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T16:10:05.965Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T16:10:05.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T16:10:40.763Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T16:10:40.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T16:11:41.905Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T16:11:41.931Z"}

@@ -7,3 +7,12 @@ export const createUser = async (body) => {
   return data;
   }
 };
+
+export const checkUser = async (email,password) => {
+  const data = await User.findOne({email})
+  if(data!=null){
+  if(data.password === password){
+      return data
+    }else{return 0}
+  }
+};

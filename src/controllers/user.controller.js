@@ -34,4 +34,28 @@ export const createUser = async (req, res, next) => {
   }
 };
 
-
+export const checkUser = async (req, res, next) => {
+  try {
+    const data = await UserService.checkUser(req.body.email,req.body.password);
+    if(data!=null && data!=0){
+        res.status(HttpStatus.CREATED).json({
+        code: HttpStatus.CREATED,
+        data: data,
+        message: 'Login Successfully!'
+      });
+    }else if(data==0){
+        res.status(HttpStatus.NOT_ACCEPTABLE).json({
+        code: HttpStatus.NOT_ACCEPTABLE,
+        message: 'Password Does not Match!'
+      });
+    }
+    else{
+        res.status(HttpStatus.NOT_ACCEPTABLE).json({
+        code: HttpStatus.NOT_ACCEPTABLE,
+        message: 'User Does not Exists!'
+      });
+   }
+  } catch (error) {
+    next(error);
+  }
+};
