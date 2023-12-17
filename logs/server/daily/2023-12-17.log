@@ -1,0 +1,1756 @@
+info: Connected to the database. {"timestamp":"2023-12-17T13:36:45.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T13:38:06.778Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T13:38:06.820Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T13:40:24.791Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T13:40:24.844Z"}
+error: 
+    status - 500 
+    message - UnauthorizedError: No authorization token was found
+    at new UnauthorizedError (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:114:39
+    at step (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:14:53)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:4:12)
+    at middleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:67:16)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:52:13
+    at Generator.next (<anonymous>)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:4:12)
+    at result (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:22:16)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-17T13:40:39.690Z"}
+error: 
+    status - 500 
+    message - UnauthorizedError: No authorization token was found
+    at new UnauthorizedError (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:114:39
+    at step (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:14:53)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:4:12)
+    at middleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:67:16)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:52:13
+    at Generator.next (<anonymous>)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:4:12)
+    at result (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:22:16)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-17T13:40:54.334Z"}
+error: 
+    status - 500 
+    message - UnauthorizedError: No authorization token was found
+    at new UnauthorizedError (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:114:39
+    at step (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:14:53)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:4:12)
+    at middleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:67:16)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:52:13
+    at Generator.next (<anonymous>)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:4:12)
+    at result (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:22:16)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/token 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-17T13:42:04.941Z"}
+error: 
+    status - 500 
+    message - UnauthorizedError: No authorization token was found
+    at new UnauthorizedError (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:114:39
+    at step (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:14:53)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:4:12)
+    at middleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:67:16)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:52:13
+    at Generator.next (<anonymous>)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:4:12)
+    at result (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:22:16)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-17T13:42:08.361Z"}
+error: 
+    status - 500 
+    message - UnauthorizedError: No authorization token was found
+    at new UnauthorizedError (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:114:39
+    at step (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:14:53)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:4:12)
+    at middleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-jwt\dist\index.js:67:16)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:52:13
+    at Generator.next (<anonymous>)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:4:12)
+    at result (C:\Users\Saianjan\backend\fundoo-note\node_modules\express-unless\dist\index.js:22:16)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Saianjan\backend\fundoo-note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-17T13:42:10.986Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:18:32.131Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:18:32.167Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:20:34.106Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:20:34.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:21:40.284Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:21:40.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:22:18.845Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:22:18.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:25:47.952Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:25:47.998Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:27:10.363Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:27:10.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:29:56.915Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:29:56.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:31:17.277Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:31:17.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:32:06.862Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:32:06.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:32:26.640Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:32:26.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:33:01.367Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:33:01.422Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:41:06.140Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:41:06.167Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:42:05.864Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:51:24.664Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:52:18.538Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:52:30.985Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:52:46.310Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:52:46.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:53:42.957Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:53:42.984Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:54:29.543Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:54:29.600Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:57:23.507Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T14:59:14.867Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T14:59:14.891Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:03:11.347Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:03:11.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:04:09.365Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:04:09.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:04:24.316Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:04:24.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:06:54.905Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:06:54.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:07:40.184Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:07:40.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:08:09.751Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:08:09.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:08:27.970Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:08:27.994Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:30:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:08:29.647Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:30:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:09:20.341Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:30:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:09:37.021Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:30:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:09:38.461Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:30:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:09:48.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:10:07.822Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:10:07.859Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:30:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:10:08.005Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:30:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:10:09.215Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:30:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:10:10.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:10:30.655Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:10:30.679Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:30:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:10:54.430Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:30:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:11:00.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:11:17.927Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:11:17.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:17:17.012Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:17:17.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:17:37.726Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:17:37.749Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:31:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:17:45.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:18:26.971Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:18:26.997Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:18:53.422Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:18:53.451Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:42
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:31:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:18:55.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:20:37.627Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:20:37.652Z"}
+error: 
+    status - 500 
+    message - TypeError: token.split is not a function
+    at Object.decode (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:74:23)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:16:9
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:31:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:20:38.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:23:16.874Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:23:16.899Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:23:56.383Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:23:56.411Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:24:46.243Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:24:46.266Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:27:26.909Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:27:26.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:32:37.416Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:32:37.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:33:53.817Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:33:53.841Z"}
+error: 
+    status - 500 
+    message - Error: Token Not Vaild!
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:20:15
+    at prcResult (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:157:7)
+    at Object.decode (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:95:10)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:18:9
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:37:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:33:58.767Z"}
+error: 
+    status - 500 
+    message - Error: Token Not Vaild!
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:20:15
+    at prcResult (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:157:7)
+    at Object.decode (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:95:10)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:18:9
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:37:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:34:00.645Z"}
+error: 
+    status - 500 
+    message - Error: Token Not Vaild!
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:20:15
+    at prcResult (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:157:7)
+    at Object.decode (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:95:10)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:18:9
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:37:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:34:02.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:35:09.706Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:35:09.730Z"}
+error: 
+    status - 500 
+    message - Error: Token Not Vaild!
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:20:15
+    at prcResult (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:157:7)
+    at Object.decode (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:89:12)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:18:9
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:37:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:35:37.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:37:04.863Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:37:04.895Z"}
+error: 
+    status - 500 
+    message - Error: Token Not Vaild!
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:20:15
+    at prcResult (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:157:7)
+    at Object.decode (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:89:12)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:18:9
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:37:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:38:48.740Z"}
+error: 
+    status - 500 
+    message - Error: Token Not Vaild!
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:20:15
+    at prcResult (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:157:7)
+    at Object.decode (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:89:12)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:18:9
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:37:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:38:56.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:39:47.769Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:39:47.790Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: Welcome
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\Saianjan\backend\fundoo-note\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\response.js:278:15)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:22:13
+    at prcResult (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:157:7)
+    at Object.decode (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:95:10)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:18:9
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:39:48.952Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: Welcome
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\Saianjan\backend\fundoo-note\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\response.js:278:15)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:22:13
+    at prcResult (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:157:7)
+    at Object.decode (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:95:10)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:18:9
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:39:50.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:40:35.447Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:40:35.474Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: Welcome
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\Saianjan\backend\fundoo-note\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\response.js:162:21)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:22:13
+    at prcResult (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:157:7)
+    at Object.decode (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:95:10)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:18:9
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:40:36.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:41:01.964Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:41:01.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:42:57.360Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:42:57.381Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: Welcome
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\Saianjan\backend\fundoo-note\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\response.js:278:15)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:22:25
+    at prcResult (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:157:7)
+    at Object.decode (C:\Users\Saianjan\backend\fundoo-note\node_modules\json-web-token\index.js:95:10)
+    at C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:18:9
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at verifyToken (C:\Users\Saianjan\backend\fundoo-note\src\routes\/index.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Saianjan\backend\fundoo-note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\Saianjan\backend\fundoo-note\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Saianjan\backend\fundoo-note\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\Saianjan\backend\fundoo-note\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-17T15:43:02.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:43:52.409Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:43:52.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:44:18.300Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:44:18.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-17T15:44:30.856Z"}
+info: Connected to the database. {"timestamp":"2023-12-17T15:44:30.882Z"}

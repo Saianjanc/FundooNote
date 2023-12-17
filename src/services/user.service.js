@@ -26,6 +26,6 @@ export const userLogin = async (email,password) => {
       throw new Error("Password does not Match!")
     }
   }else{
-    throw new Error("User Email Already Exists!")
+    throw new Error("Email does not Exists!")
   }
 };
