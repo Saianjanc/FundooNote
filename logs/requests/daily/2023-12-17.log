@@ -202,3 +202,17 @@ info: ::1 - - [17/Dec/2023:15:44:19 +0000] "GET /api/v1/ HTTP/1.1" 200 319 "-" "
 
 info: ::1 - - [17/Dec/2023:15:44:36 +0000] "GET /api/v1/ HTTP/1.1" 200 320 "-" "PostmanRuntime/7.36.0"
 
+info: ::1 - - [17/Dec/2023:15:52:41 +0000] "GET /api/v1/ HTTP/1.1" 200 320 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [17/Dec/2023:15:53:13 +0000] "GET /api/v1/ HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [17/Dec/2023:15:53:20 +0000] "GET /api/v1/ HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [17/Dec/2023:15:53:26 +0000] "GET /api/v1/ HTTP/1.1" 200 320 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [17/Dec/2023:15:54:47 +0000] "GET /api/v1/ HTTP/1.1" 200 320 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [17/Dec/2023:15:54:53 +0000] "POST /api/v1/users/login HTTP/1.1" 201 835 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [17/Dec/2023:15:55:08 +0000] "GET /api/v1/ HTTP/1.1" 200 320 "-" "PostmanRuntime/7.36.0"
+

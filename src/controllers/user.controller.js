@@ -1,7 +1,7 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
 
-import jwt from 'json-web-token';
+import jwt from 'jsonwebtoken';
 
 /**
  * Controller to get all users available
@@ -28,7 +28,7 @@ export const createUser = async (req, res, next) => {
 export const userLogin = async (req, res, next) => {
   try {
         const data = await UserService.userLogin(req.body.email,req.body.password);
-        jwt.encode(process.env.ACCESS_TOKEN,{data},(err,token)=>{
+        jwt.sign({data},process.env.ACCESS_TOKEN,(err,token)=>{
           res.status(HttpStatus.CREATED).json({
             code: HttpStatus.CREATED,
             data: data,

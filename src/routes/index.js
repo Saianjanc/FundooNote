@@ -3,7 +3,7 @@ const router = express.Router();
 
 import * as userController from '../controllers/user.controller';
 
-import jwt from 'json-web-token';
+import jwt from 'jsonwebtoken';
 
 import userRoute from './user.route';
 import noteRoute from './note.route';
@@ -15,7 +15,7 @@ import noteRoute from './note.route';
  */
 const routes = () => {
   router.get('/', verifyToken,(req, res) => {
-    jwt.decode(process.env.ACCESS_TOKEN,req.token,(err,token)=>{
+    jwt.verify(req.token,process.env.ACCESS_TOKEN,(err,token)=>{
       if (err) {
         throw new Error("Token Not Vaild!")
       } else {
